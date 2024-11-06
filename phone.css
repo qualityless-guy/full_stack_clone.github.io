@@ -1,0 +1,44 @@
+@media only screen and (max-width: 984px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .full_header {
+
+        background-image: url("header_image.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pricing-cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .curriculum_table {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 2fr 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
